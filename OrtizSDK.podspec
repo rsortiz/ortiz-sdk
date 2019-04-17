@@ -23,7 +23,6 @@ s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-sdk.git", :tag => "#{s.version}" }
 
 s.ios.vendored_frameworks = 'CarTrawlerSDK.framework'
-
 s.requires_arc = true
 
 end
