@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "OrtizSDK"
-s.version      = "1.0.1"
+s.version      = "1.0.0"
 s.summary      = "Ortiz iOS SDK"
 s.description  = <<-DESC
 A toolkit for car rental & ground transport
@@ -20,7 +20,7 @@ LICENSE
 s.author       = { "Rafael Ortiz" => "" }
 s.platform     = :ios
 s.platform     = :ios, "9.0"
-s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-sdk.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/rsortiz/ortiz-sdk.git", :tag => "#{s.version}" }
 
 s.ios.vendored_frameworks = 'CarTrawlerSDK.framework'
 s.requires_arc = true
