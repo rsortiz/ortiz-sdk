@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "OrtizSDK"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "Ortiz iOS SDK"
 s.description  = <<-DESC
 A toolkit for car rental & ground transport
